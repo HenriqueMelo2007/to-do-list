@@ -3,7 +3,7 @@ import { AddTarefa } from "./components/adicionarTarefa/addtarefa"
 export function App() {
 
   return (
-    <div>
+    <div className="container">
       <AddTarefa></AddTarefa>
     </div>
   )

@@ -1,10 +1,21 @@
 :root {
   --font-roboto: 'Roboto', sans-serif;
   --font-lato: 'Lato', sans-serif;
+  --color-background: #faf9f8;
+  --color-blue: #2564cf;
+  --color-gray: rgb(119, 119, 119);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.container {
+  padding: 50px;
 }
