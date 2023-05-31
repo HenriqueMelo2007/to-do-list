@@ -4,7 +4,7 @@
   align-items: center;
   height: max-content;
   padding: 20px;
-  width: 600px;
+  width: max-content;
   background-color: var(--color-blue);
   border-radius: 30px;
 }
@@ -12,7 +12,7 @@
 .inputTarefa {
   width: 40px;
   height: 40px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .inputTarefa:hover {
@@ -26,5 +26,22 @@
   background-color: var(--color-blue);
   outline: none;
   border: none;
+}
 
+.btnDel {
+  width: 70px;
+  height: 40px;
+  font-size: 16px;
+  background-color: var(--color-background);
+  color: var(--color-red);
+  font-family: var(--font-lato);
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+}
+
+.btnDel:hover {
+  cursor: pointer;
+  color: var(--color-background);
+  background-color: var(--color-red);
 }
