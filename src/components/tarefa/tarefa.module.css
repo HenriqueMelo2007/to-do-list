@@ -1,0 +1,27 @@
+.boxTarefa {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  height: max-content;
+  padding: 20px;
+  width: 600px;
+  background-color: var(--color-blue);
+  border-radius: 30px;
+}
+
+.inputTarefa {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.conteudoTarefa {
+  font-family: var(--font-roboto);
+  font-size: 35px;
+  color: var(--color-background);
+  background-color: var(--color-blue);
+  outline: none;
+  border: none;
+
+}
