@@ -8,8 +8,6 @@ export function AddTarefa () {
 
   const [inputValue, setInputValue] = useState('')
 
-  console.log({inputValue})
-
   const handleChange = (event) => {
     setInputValue(event.target.value);
   };
@@ -17,7 +15,7 @@ export function AddTarefa () {
   return (
     <div className={styles.boxAdd}>
       <input className={styles.inputAdd} type="text" placeholder="Adicione uma tarefa" value={inputValue} onChange={handleChange} />
-      <button onClick={() => funcAddTarefa()} className={styles.btnAdd}>+</button>
+      <button onClick={() => [setInputValue(''), funcAddTarefa(inputValue)]} className={styles.btnAdd}>+</button>
     </div>
   )
 }
