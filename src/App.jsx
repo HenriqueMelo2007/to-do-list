@@ -1,12 +1,10 @@
-import { useContext } from "react"
-import { Contexto } from "./context/context"
+import { AddTarefa } from "./components/adicionarTarefa/addtarefa"
 
 export function App() {
-  const {} = useContext(Contexto)
 
   return (
     <div>
-      
+      <AddTarefa></AddTarefa>
     </div>
   )
 }
