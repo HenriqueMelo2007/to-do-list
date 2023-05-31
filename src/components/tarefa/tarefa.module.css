@@ -16,6 +16,10 @@
   margin-right: 15px;
 }
 
+.inputTarefa:hover {
+  cursor: pointer;
+}
+
 .conteudoTarefa {
   font-family: var(--font-roboto);
   font-size: 35px;
