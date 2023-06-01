@@ -10,9 +10,6 @@ export function Tarefa ({ conteudo, id }) {
     const novasTarefas = listaTarefas.filter(tarefa => tarefa.id !== id);
 
     reset(novasTarefas)
-    console.log(listaTarefas)
-    console.log(novasTarefas)
-    
   }
 
 
