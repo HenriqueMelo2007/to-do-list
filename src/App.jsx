@@ -11,10 +11,8 @@ export function App() {
     <div className="container">
       <AddTarefa></AddTarefa>
 
-      {console.log(listaTarefas)}
-
-      {listaTarefas.map((item, index) => {
-        return <Tarefa key={index} conteudo={item}></Tarefa>
+      {listaTarefas.map((item) => {
+        return <Tarefa key={item.id} id={item.id} conteudo={item.content}></Tarefa>
       })}
     </div>
   )

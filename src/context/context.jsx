@@ -9,10 +9,12 @@ export function ProvedorContexto ({children}) {
 
   const funcAddTarefa = (novaTarefa) => setListaTarefas(prevListaTarefas => [...prevListaTarefas, novaTarefa])
 
+  const reset = (novaLista) => setListaTarefas(novaLista)
 
   const valorContexto = {
     listaTarefas,
     funcAddTarefa,
+    reset,
   }
 
   return (
